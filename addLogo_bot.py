@@ -1,4 +1,4 @@
-#!./venv/bin/bin/python3
+#type your interpreter
 # -*- coding: utf-8 -*-
 """
 telegram bot for register_next_step handler.
