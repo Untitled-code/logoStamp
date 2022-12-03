@@ -12,7 +12,7 @@ import imageLogo
 import os
 logging.basicConfig(filename='addLogo_bot.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
-API_TOKEN = '5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg'
+API_TOKEN = os.environ.get('LOGOSTAMP')
 
 bot = telebot.TeleBot(API_TOKEN)
 
@@ -35,7 +35,7 @@ def send_welcome(message):
 
 @bot.message_handler(content_types=['photo'])
 def photo(message):
-    """Preapiring folder"""
+    """Prepairing folder"""
     chat_id = message.chat.id
     name = message.text
     user = User(name)
@@ -52,13 +52,16 @@ def photo(message):
     print('message.photo =', message.photo)
     fileID = message.photo[-1].file_id
     print('fileID =', fileID)
+    logging.debug('fileID =', fileID)
     file_info = bot.get_file(fileID)
     print('file.file_path =', file_info.file_path)
+    logging.debug('file.file_path =', file_info.file_path)
     downloaded_file = bot.download_file(file_info.file_path)
     filename = f"{directory}/image_{TIMESTAMP}.jpg"
     with open(filename, 'wb') as new_file:
         new_file.write(downloaded_file)
     print(filename, directory, TIMESTAMP)
+    logging.debug(filename, directory, TIMESTAMP)
     imageLogo.main(filename, directory, TIMESTAMP)
     output_file = f'./{directory}/fp_logo{TIMESTAMP}.jpg'
     file = open(output_file, 'rb')
