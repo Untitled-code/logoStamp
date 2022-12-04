@@ -1,7 +1,8 @@
-#type your interpreter
+#!../imagesMergeBot/myvenv/bin/python3
 # -*- coding: utf-8 -*-
+
 """
-telegram bot for register_next_step handler.
+telegram bot for adding logo on photos and videos with register_next_step handler.
 """
 
 import telebot #pip install pyTelegramBotAPI
