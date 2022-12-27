@@ -39,11 +39,9 @@ def photo(message):
     chat_id = message.chat.id
     name = message.text
     user = User(name)
-    user_dict[chat_id] = user
-    who_sent = msg['from']['first_name']
     """Prepairing directory with chat_id and output file with timestamp"""
     TIMESTAMP = datetime.datetime.now().strftime('%Y%m%d%H%M%S%f')[:-3] #with miliseconds
-    directory = f'dir_{chat_id}_{who_sent}'
+    directory = f'dir_{chat_id}'
     print(f'Directory: {directory}')
     logging.debug(f'Directory: {directory}')
     Path(directory).mkdir(exist_ok=True)  # creating a new directory if not exist
