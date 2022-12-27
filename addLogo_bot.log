@@ -13817,3 +13817,938 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', po
 2022-11-21 14:25:33,615 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256243&timeout=20 HTTP/1.1" 200 23
 2022-11-21 14:25:39,341 - ERROR - Infinity polling: polling exited
 2022-11-21 14:25:39,342 - ERROR - Break infinity polling
+2022-12-04 12:09:18,969 - DEBUG - Listening...
+2022-12-04 12:09:18,969 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:18,972 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:21,975 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:21,976 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:24,979 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:24,979 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:27,983 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:27,983 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:30,986 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:30,987 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:33,990 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:33,990 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:36,991 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:36,992 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:39,995 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:39,995 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:42,999 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:42,999 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:46,002 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:46,003 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:49,006 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:49,007 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:52,010 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:52,010 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:55,013 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:55,013 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:09:58,015 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:09:58,016 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:10:01,019 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:10:01,019 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:10:04,023 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:10:04,023 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:10:07,026 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:10:44,037 - DEBUG - Listening...
+2022-12-04 12:10:44,037 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:10:44,040 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:10:47,043 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:10:47,043 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:10:50,047 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:10:50,047 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:15:02,368 - DEBUG - Listening...
+2022-12-04 12:15:02,368 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:15:02,372 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:15:05,375 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:15:05,375 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:15:08,376 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:15:08,376 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:15:48,405 - DEBUG - Listening...
+2022-12-04 12:15:48,405 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:15:48,408 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:15:51,411 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:15:51,411 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:15:54,415 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:15:54,415 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:15:57,419 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:15:57,419 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:24:55,047 - DEBUG - Listening...
+2022-12-04 12:24:55,048 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:24:55,053 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:24:58,055 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:24:58,055 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:25:01,058 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:25:01,059 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:25:04,059 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:25:04,059 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 12:25:07,063 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 12:25:07,063 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 16:53:42,204 - DEBUG - Listening...
+2022-12-04 16:53:42,206 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 16:53:42,209 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 16:53:45,211 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 16:53:45,212 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 16:54:23,926 - DEBUG - Listening...
+2022-12-04 16:54:23,927 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 16:54:23,930 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 16:54:26,931 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 16:54:26,932 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 17:02:01,489 - DEBUG - Listening...
+2022-12-04 17:02:01,490 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 17:02:01,493 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 17:02:04,495 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 17:02:04,495 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 17:02:07,498 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 17:02:07,499 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 17:02:10,502 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 17:02:10,503 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 17:02:13,506 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 17:02:13,507 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 17:02:16,509 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 17:02:16,509 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 17:02:19,512 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 17:02:19,512 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 17:02:22,515 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 17:02:22,516 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 17:04:31,068 - DEBUG - Listening...
+2022-12-04 17:04:31,077 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2022-12-04 17:04:31,541 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getMe HTTP/1.1" 200 209
+2022-12-04 17:04:31,545 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2022-12-04 17:04:35,130 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=1&timeout=20 HTTP/1.1" 409 143
+2022-12-04 17:04:35,134 - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2022-12-04 17:04:35,134 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1073, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/util.py", line 118, in raise_exceptions
+    raise self.exception_info
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/util.py", line 100, in run
+    task(*args, **kwargs)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 649, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 623, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 321, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2022-12-04 17:04:38,988 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=1&timeout=20 HTTP/1.1" 409 143
+2022-12-04 17:04:38,989 - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2022-12-04 17:04:38,989 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1073, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/util.py", line 118, in raise_exceptions
+    raise self.exception_info
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/util.py", line 100, in run
+    task(*args, **kwargs)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 649, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 623, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 321, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2022-12-04 17:04:43,602 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=1&timeout=20 HTTP/1.1" 409 143
+2022-12-04 17:04:43,603 - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2022-12-04 17:04:43,604 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1073, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/util.py", line 118, in raise_exceptions
+    raise self.exception_info
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/util.py", line 100, in run
+    task(*args, **kwargs)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 649, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 623, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 321, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2022-12-04 17:05:27,456 - DEBUG - Listening...
+2022-12-04 17:05:27,460 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2022-12-04 17:05:27,996 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getMe HTTP/1.1" 200 209
+2022-12-04 17:05:28,000 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2022-12-04 17:05:39,675 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 1009
+2022-12-04 17:05:39,676 - DEBUG - Directory: dir_959676595
+2022-12-04 17:05:39,678 - DEBUG - Directory is made... dir_959676595
+2022-12-04 17:05:39,692 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2022-12-04 17:05:40,038 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getFile?file_id=AgACAgIAAxkBAAP-Y4y3Mr_GPkW9RrEBsB6jkFTKffEAAqvEMRv4M2hINmkxBfX4tJEBAAMCAAN5AAMrBA HTTP/1.1" 200 205
+2022-12-04 17:05:40,123 - DEBUG - https://api.telegram.org:443 "GET /file/bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/photos/file_78.jpg HTTP/1.1" 200 328508
+2022-12-04 17:05:40,357 - DEBUG - STREAM b'IHDR' 16 13
+2022-12-04 17:05:40,357 - DEBUG - STREAM b'tEXt' 41 25
+2022-12-04 17:05:40,357 - DEBUG - STREAM b'IDAT' 78 12100
+2022-12-04 17:05:43,972 - DEBUG - https://api.telegram.org:443 "POST /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/sendDocument?chat_id=959676595 HTTP/1.1" 200 650
+2022-12-04 17:05:43,973 - DEBUG - Files dir_959676595/image_20221204170539676.jpg, ./dir_959676595/fp_logo20221204170539676.jpg were removed
+2022-12-04 17:05:59,715 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256286&timeout=20 HTTP/1.1" 200 23
+2022-12-04 17:06:19,756 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256286&timeout=20 HTTP/1.1" 200 23
+2022-12-04 17:06:39,808 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256286&timeout=20 HTTP/1.1" 200 23
+2022-12-04 17:06:59,968 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256286&timeout=20 HTTP/1.1" 200 23
+2022-12-04 17:07:20,011 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256286&timeout=20 HTTP/1.1" 200 23
+2022-12-04 17:07:33,137 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256286&timeout=20 HTTP/1.1" 200 720
+2022-12-04 17:07:33,138 - DEBUG - Directory: dir_959676595
+2022-12-04 17:07:33,141 - DEBUG - Directory is made... dir_959676595
+2022-12-04 17:07:33,142 - ERROR - Infinity polling exception: 'Video' object is not subscriptable
+2022-12-04 17:07:33,142 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/util.py", line 100, in run
+    task(*args, **kwargs)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/investigator/PycharmProjects/logoStamp/./addLogo_bot.py", line 93, in video
+    fileID = message.video[-1].file_id
+TypeError: 'Video' object is not subscriptable
+
+2022-12-04 17:07:36,146 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2022-12-04 17:07:36,401 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256287&timeout=20 HTTP/1.1" 409 143
+2022-12-04 17:07:56,404 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256287&timeout=20 HTTP/1.1" 200 23
+2022-12-04 17:08:16,473 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256287&timeout=20 HTTP/1.1" 200 23
+2022-12-04 17:08:36,518 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256287&timeout=20 HTTP/1.1" 200 23
+2022-12-04 17:08:56,561 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256287&timeout=20 HTTP/1.1" 200 23
+2022-12-04 17:09:16,209 - ERROR - Infinity polling: polling exited
+2022-12-04 17:09:16,209 - ERROR - Break infinity polling
+2022-12-04 17:20:12,910 - DEBUG - Listening...
+2022-12-04 17:20:12,911 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 17:20:12,916 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 17:20:15,919 - ERROR - Infinity polling exception: Bot token is not defined
+2022-12-04 17:20:15,920 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/apihelper.py", line 80, in _make_request
+    raise Exception('Bot token is not defined')
+Exception: Bot token is not defined
+
+2022-12-04 17:20:22,007 - DEBUG - Listening...
+2022-12-04 17:20:22,010 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2022-12-04 17:20:22,340 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getMe HTTP/1.1" 200 209
+2022-12-04 17:20:22,344 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2022-12-04 17:20:43,514 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-12-04 17:20:57,428 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 713
+2022-12-04 17:20:57,430 - DEBUG - Directory: dir_959676595
+2022-12-04 17:20:57,432 - DEBUG - Directory is made... dir_959676595
+2022-12-04 17:20:57,436 - ERROR - Infinity polling exception: 'Video' object is not subscriptable
+2022-12-04 17:20:57,436 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/util.py", line 100, in run
+    task(*args, **kwargs)
+  File "/home/investigator/PycharmProjects/logoStamp/venv/bin/lib/python3.10/site-packages/telebot/__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/investigator/PycharmProjects/logoStamp/./addLogo_bot.py", line 94, in video
+    fileID = message.video[-1].file_id
+TypeError: 'Video' object is not subscriptable
+
+2022-12-04 17:21:00,441 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2022-12-04 17:21:01,377 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256288&timeout=20 HTTP/1.1" 409 143
+2022-12-04 17:21:21,376 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getUpdates?offset=765256288&timeout=20 HTTP/1.1" 200 23
+2022-12-24 22:38:25,406 - DEBUG - Listening...
+2022-12-24 22:38:25,410 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2022-12-24 22:38:25,826 - DEBUG - https://api.telegram.org:443 "GET /bot5671366041:AAHMZr0DpbVGg-NMyHWyLHQkfZA1tyqPuCg/getMe HTTP/1.1" 200 209
+2022-12-24 22:38:25,830 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2022-12-24 22:38:33,920 - ERROR - Infinity polling: polling exited
+2022-12-24 22:38:33,920 - ERROR - Break infinity polling

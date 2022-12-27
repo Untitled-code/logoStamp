@@ -14,7 +14,7 @@ import os
 logging.basicConfig(filename='addLogo_bot.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 API_TOKEN = os.environ.get('LOGOSTAMP')
-
+print(API_TOKEN)
 bot = telebot.TeleBot(API_TOKEN)
 
 user_dict = {}
@@ -23,7 +23,6 @@ class User: #get user data
     def __init__(self, name):
         self.name = name #string for the header
         self.name2 = None #string for the main text
-
 
 print("Listening...")
 logging.debug("Listening...")
@@ -41,9 +40,10 @@ def photo(message):
     name = message.text
     user = User(name)
     user_dict[chat_id] = user
+    who_sent = msg['from']['first_name']
     """Prepairing directory with chat_id and output file with timestamp"""
     TIMESTAMP = datetime.datetime.now().strftime('%Y%m%d%H%M%S%f')[:-3] #with miliseconds
-    directory = f'dir_{chat_id}'
+    directory = f'dir_{chat_id}_{who_sent}'
     print(f'Directory: {directory}')
     logging.debug(f'Directory: {directory}')
     Path(directory).mkdir(exist_ok=True)  # creating a new directory if not exist
@@ -74,6 +74,32 @@ def photo(message):
 
     """End of program"""
 
+@bot.message_handler(content_types=['video'])
+def video(message):
+    """Prepairing folder"""
+    chat_id = message.chat.id
+    name = message.text
+    user = User(name)
+    print(User)
+    user_dict[chat_id] = user
+    who_sent = msg['from']['first_name']
+    """Prepairing directory with chat_id and output file with timestamp"""
+    TIMESTAMP = datetime.datetime.now().strftime('%Y%m%d%H%M%S%f')[:-3]  # with miliseconds
+    directory = f'dir_{chat_id}_{who_sent}'
+    print(f'Directory: {directory}')
+    logging.debug(f'Directory: {directory}')
+    Path(directory).mkdir(exist_ok=True)  # creating a new directory if not exist
+    print(f'Directory is made... {directory}')
+    logging.debug(f'Directory is made... {directory}')
+    """Downloading video"""
+    print('message.video =', message.photo)
+    fileID = message.video[-1].file_id
+    print('fileID =', fileID)
+    logging.debug('fileID =', fileID)
+    file_info = bot.get_file(fileID)
+    print('file.file_path =', file_info.file_path)
+    logging.debug('file.file_path =', file_info.file_path)
+    downloaded_file = bot.download_file(file_info.file_path)
 
 # Enable saving next step handlers to file "./.handlers-saves/step.save".
 # Delay=2 means that after any change in next step handlers (e.g. calling register_next_step_handler())
