@@ -5,9 +5,9 @@ def imagesConcatenate(bg, overlay, directory, timestamp):
     bg = bg.convert("RGBA")
     overlay = overlay.convert("RGBA")
     if width > height: #for horizontal picture
-        bg.paste(overlay, (1100, (height - 150)), overlay)
+        bg.paste(overlay, (850, (height - 150)), overlay)
     elif height > width: #for vertical picture
-        bg.paste(overlay, ((width - 400), 1350), overlay)
+        bg.paste(overlay, ((width - 650), 1350), overlay)
 
     print(f"Final picture is: Width:{width} and height:{height}")
     # bg.show()
@@ -29,7 +29,7 @@ def changeImageSize(image):
 
 def main(file, directory, timestamp):
     background = Image.open(file)
-    overlay = Image.open("./nikcenter-logo1.png")
+    overlay = Image.open("./nikcenter-logo2.png")
     bg = changeImageSize(background)  # changing size proportianlly woth new width
     imagesConcatenate(bg, overlay, directory, timestamp)
 

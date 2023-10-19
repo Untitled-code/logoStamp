@@ -14,6 +14,7 @@ import os
 logging.basicConfig(filename='addLogo_bot.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 API_TOKEN = os.environ.get('LOGOSTAMP')
+# API_TOKEN = '2073537137:AAESpDgrCAOIDLYClFtG3-zc5LAl6baZS9k' #test bot
 print(API_TOKEN)
 bot = telebot.TeleBot(API_TOKEN)
 
